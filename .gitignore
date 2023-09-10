@@ -1,3 +1,6 @@
 .venv
-*.csv
 .env
+
+mlruns
+/transform_data.csv
+/house_rent_dataset.csv

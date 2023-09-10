@@ -3,3 +3,11 @@ pyarrow
 pymongo
 python-dotenv
 pandas
+scipy
+scikit-learn
+tensorflow
+pip-tools
+mlflow
+dvc
+dvc_gdrive
+pre-commit

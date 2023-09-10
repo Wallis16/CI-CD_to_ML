@@ -1,5 +1,24 @@
 # Continuous integration (CI) - Deployment continuous (CD) for Machine Learning solutions
 
+#add optuna
+#add sklearn pipeline
+#authenticate mlflow
+--
+
+pre-commit install
+
+dvc init
+dvc add <file>
+dvc remote add --default <name> gdrive://<folder ID>
+dvc remote modify drive gdrive_acknowledge_abuse true
+dvc push
+
+pip-compile
+pip-sync
+
+mlflow server --backend-store-uri sqlite:///backend.db
+
+--
 BHK: Number of Bedrooms, Hall, Kitchen.
 
 Rent: Rent of the Houses/Apartments/Flats.
