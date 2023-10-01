@@ -7,3 +7,4 @@ mlruns
 /airflow/logs/
 airflow/dags/data_staging/extract/house_rent_dataset.csv
 airflow/dags/data_staging/transform/transform_house_rent_dataset.csv
+__pycache__/

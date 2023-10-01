@@ -12,3 +12,4 @@ dvc
 dvc_gdrive
 pre-commit
 apache-airflow
+pytest
