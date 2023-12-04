@@ -13,3 +13,7 @@ dvc_gdrive
 pre-commit
 apache-airflow
 pytest
+fastapi
+uvicorn
+typing
+pydantic
