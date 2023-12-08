@@ -1,0 +1,5 @@
+outs:
+- md5: ebf65b0a103bf9fe84acd67d2f1a1f74
+  size: 67547
+  hash: md5
+  path: transform_house_rent_dataset.csv

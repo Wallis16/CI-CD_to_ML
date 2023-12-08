@@ -5,7 +5,7 @@ def load_to_mongodb(username: str, password: str, database: str,
                      collection_name: str, table_path: str):
 
     # Replace with your MongoDB Atlas connection string
-    mongo_uri = f'mongodb+srv://{username}:{password}@{database}.dczmvwe.mongodb.net/'
+    mongo_uri = f'mongodb+srv://{username}:{password}@{database}.hi7evkw.mongodb.net/'
 
     # Connect to MongoDB Atlas
     client = MongoClient(mongo_uri)

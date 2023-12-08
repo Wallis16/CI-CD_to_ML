@@ -1,7 +1,7 @@
 [core]
-    remote = drive
+    remote = house_rent
 ['remote "house_rent"']
-    url = https://drive.google.com/drive/folders/1gfSOV4w5dadbosXUWfn2vtBgm_cT9ne8?usp=drive_link
+    url = gdrive://1gfSOV4w5dadbosXUWfn2vtBgm_cT9ne8
 ['remote "drive"']
     url = gdrive://1gfSOV4w5dadbosXUWfn2vtBgm_cT9ne8
     gdrive_acknowledge_abuse = true

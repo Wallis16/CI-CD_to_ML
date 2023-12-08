@@ -3,6 +3,7 @@
 #add optuna
 #add sklearn pipeline
 #authenticate mlflow
+#pandera
 --
 
 pre-commit install
