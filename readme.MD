@@ -17,7 +17,20 @@ dvc push
 pip-compile
 pip-sync
 
-mlflow server --backend-store-uri sqlite:///backend.db
+mlflow server --backend-store-uri sqlite:///mlflow.db
+
+mlflow server --host 0.0.0.0 --port 8888 --backend-store-uri sqlite:///mlflow.db
+
+curl -X 'POST' \
+  'http://127.0.0.1:8000/model/keras1?data_path=airflow%5Cdags%5Cdata_staging%5Ctransform%5Ctransform_house_rent_dataset.csv&token=jessica' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "learning_rate": 0,
+  "epochs": 5,
+  "loss": "string",
+  "optimizer": "string"
+}'
 
 --
 BHK: Number of Bedrooms, Hall, Kitchen.

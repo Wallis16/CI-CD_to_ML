@@ -37,8 +37,6 @@ def model_training(data_path, epochs):
 
         model.add(tf.keras.layers.Dense(30))
         model.add(tf.keras.layers.Dense(60))
-        model.add(tf.keras.layers.Dense(60))
-        model.add(tf.keras.layers.Dense(60))
         model.add(tf.keras.layers.Dense(1))
 
         model.compile(
